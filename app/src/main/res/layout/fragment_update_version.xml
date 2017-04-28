@@ -1,0 +1,80 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:id="@+id/linearLayout">
+        <RelativeLayout
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/info_textview"
+                android:textColor="@color/colorFocussedButton"
+                android:textSize="@dimen/l_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/force_update_msg"
+                android:gravity="center"
+                android:padding="@dimen/spacing_xlarge"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_large">
+            <Button
+                android:id="@+id/update_btn"
+                android:background="@drawable/blue_rectangle_btn"
+                android:textColor="@color/white"
+                android:layout_height="36dp"
+                android:layout_width="wrap_content"
+                android:text="@string/update_gofinder"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/spacing_large"/>
+            <Button
+                android:id="@+id/later_btn"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textColor="@color/colorFocussedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/later"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/spacing_large"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@color/colorNotFocussedButton"
+        android:textSize="@dimen/normal_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/is_free_to_update_app"
+        android:gravity="center"
+        android:padding="@dimen/spacing_large"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="normal_text_size">16sp</dimen>
+    <dimen name="s_text_size">14sp</dimen>
+    <dimen name="m_text_size">16sp</dimen>
+    <dimen name="l_text_size">20sp</dimen>
+    <dimen name="xl_text_size">28sp</dimen>
+    <dimen name="xxl_text_size">32sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+
+    <dimen name="xs_margin">4dp</dimen>
+    <dimen name="s_margin">10dp</dimen>
+    <dimen name="m_margin">16dp</dimen>
+    <dimen name="l_margin">22dp</dimen>
+    <dimen name="xl_margin">28dp</dimen>
+    <dimen name="xxl_margin">34dp</dimen>
+    <dimen name="xxxl_margin">40dp</dimen>
+
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">48dp</dimen>
+    <dimen name="search_button_height">60dp</dimen>
+    <dimen name="next_button_side">50dp</dimen>
+
+
+
+</resources>

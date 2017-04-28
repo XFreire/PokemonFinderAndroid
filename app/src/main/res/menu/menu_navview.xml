@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/section1"
+            android:title="Sección 1"/>
+        <item
+            android:id="@+id/section2"
+            android:title="RecyclerView"/>
+        <item
+            android:id="@+id/section3"
+            android:title="Sección 3"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Preferencias">
+        <menu>
+            <item
+                android:id="@+id/pref1"
+                android:title="Preferencia 1"/>
+            <item
+                android:id="@+id/pref2"
+                android:title="Preferencia 2"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"/>
+</menu>

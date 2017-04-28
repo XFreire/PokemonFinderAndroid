@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorPrimaryLight">#B2DFDB</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="colorLightBackground">#AAAAAA</color>
+    <color name="redColorPrimary">#f36c60</color>
+    <color name="redColorPrimaryDark">#ef3727</color>
+    <color name="redColorAccent">#547df9</color>
+    <color name="colorGreenAccentDark">#328f31</color>
+    <color name="colorGreenAccentDisabled">#9ed2a3</color>
+
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="transparent">#021976D2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#F44336</color>
+    <color name="light_background">#f1f5f8</color>
+    <color name="stroke_white_edittext">#edeef0</color>
+    <color name="gray_icons">#a0a0a0</color>
+    <color name="colorDivider">#ebebeb</color>
+    <color name="colorFocussedButton">#616161</color>
+    <color name="colorNotFocussedButton">#9d9daf</color>
+    <color name="black_mask">#000000</color>
+    <color name="gray_stroke">#eaeaea</color>
+    <color name="color_gray_button">#f7f7f7</color>
+    <color name="color_gray_text_button">#707070</color>
+    <color name="colorEmptyProgressBar">#00bbaa</color>
+    <color name="colorGrayBackground">#e9eef7</color>
+    <color name="colorGrayStroke">#cdd1d7</color>
+    <color name="colorGrayDark">#606268</color>
+    <color name="colorNotFoccused">#818181</color>
+</resources>

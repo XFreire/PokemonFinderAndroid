@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">PokeGo Finder</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key">AIzaSyBsQfoei1pHOgVZNnxm9Hw4M9PE0fRJ6RA</string>
+    <string name="force_update_msg">This version of PokeGo Finder has expired. Please go to Play Store to update it.</string>
+    <string name="there_is_new_version">There is a new version of PokeGo Finder available on Play Store.</string>
+    <string name="update_gofinder">UPDATE POKE-GO FINDER</string>
+    <string name="later">Later</string>
+    <string name="is_free_to_update_app">Is free to update PokeGo Finder</string>
+    <string name="pokemon_here">I have seen a Pokemon HERE</string>
+    <string name="whats_your_name">1- What is your name?</string>
+    <string name="whats_your_email_with_name">Hi %s! \nWhats is your email address?</string>
+    <string name="whats_your_email">Hi! \nWhats is your email address?</string>
+    <string name="choose_password">Choose a password:</string>
+    <string name="at_least_8_charachters">At least 8 charachters long.</string>
+    <string name="creating_account">Creating account</string>
+    <string name="congrats">Congratulations %s!</string>
+    <string name="you_are_member">You are now member of PokeGo Finder, the best Pokemon search engine app in the world.</string>
+    <string name="ok">OK</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="description_sign_up">Find Pokemons nearby. Tell the rest of trainers where you have seen one of them. Become the best pokemon trainer in the world</string>
+    <string name="sign_up_now">Sign up now</string>
+    <string name="already_account">Already have an account? Sign in</string>
+    <string name="add_payment_method">Find Pokemons</string>
+    <string name="try_demo">Try a demo of Parkfon</string>
+    <string name="transition_search_box">transition:SEARCH_BOX</string>
+    <string name="search_pokemon">Search Pokemon</string>
+    <string name="transition_search_icon">transition:SEARCH _ICON</string>
+    <string name="transition_fab">transition:FAB</string>
+    <string name="what_pokemon">What Pokemon have you seen?</string>
+    <string name="write_pokemon_name">Start typing the Pokemon name and click on the suggestion</string>
+    <string name="logout">Log Out</string>
+    <string name="signing_in">Signing in</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="type_pokemon_name">Type the Pokemon name</string>
+    <string name="add_pokemon">Pokemon sighting</string>
+    <string name="searching_pokemon_name">Searching \'%s\'</string>
+
+</resources>

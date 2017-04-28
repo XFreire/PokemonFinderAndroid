@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.parkfon.parkfon.Controllers.Login.UserSuccess.UserCreatedFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/m_margin"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/l_margin"
+                android:layout_gravity="center"
+                android:src="@drawable/user_success"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/m_text_size"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/l_margin"
+                android:layout_marginRight="@dimen/l_margin"
+                android:layout_marginBottom="@dimen/l_margin"
+                android:text="@string/congrats"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/xl_margin"
+                android:layout_marginRight="@dimen/xl_margin"
+                android:lines="2"
+                android:textColor="@color/colorNotFoccused"
+                android:gravity="center"
+                android:text="@string/you_are_member"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <Button
+            android:id="@+id/add_payment_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/blue_button"
+            android:textColor="@color/white"
+            android:layout_margin="@dimen/m_margin"
+            android:text="@string/add_payment_method"/>
+
+        <TextView
+            android:id="@+id/try_demo_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/m_margin"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/try_demo"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

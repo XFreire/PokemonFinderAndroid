@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/search_box"
+android:transitionName="@string/transition_search_box"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="12dp"
+android:layout_marginRight="16dp"
+android:layout_marginLeft="16dp"
+android:background="@drawable/search_box"
+android:orientation="horizontal"
+android:elevation="6dp">
+<ImageButton
+    android:id="@+id/menu_btn"
+    android:layout_width="40dp"
+    android:layout_height="42dp"
+    android:layout_margin="3dp"
+    android:background="@drawable/white_button"
+    android:layout_weight="1"
+    android:src="@drawable/ic_menu_gray_24dp"/>
+<AutoCompleteTextView
+    android:id="@+id/search_box_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_margin="3dp"
+    android:paddingStart="6dp"
+    android:paddingEnd="6dp"
+    style="@style/DropDownListViewStyle"
+    android:hint="@string/search_pokemon"
+    android:layout_weight="100"
+    android:textSize="@dimen/normal_text_size"
+    android:textColor="@color/black"
+    android:textColorHint="@color/gray_icons"
+    android:gravity="center_vertical"
+    android:inputType="textNoSuggestions"
+    android:background="@android:color/transparent"/>
+<!--<ImageButton
+    android:id="@+id/microphone_btn"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_margin="3dp"
+    android:transitionName="@string/transition_search_icon"
+    android:background="@drawable/white_button"
+    android:layout_weight="1"
+    android:src="@drawable/ic_search_white_24dp" />-->
+</LinearLayout>
